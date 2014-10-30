@@ -8,9 +8,10 @@ using System.Threading.Tasks;
 
 namespace WorkScheduleSystem.Entities
 {
-    [Key]
+    
     public class Employee
     {
+        [Key]
         public int EmployeeID { get; set; }
 
         [Required(ErrorMessage = "The value FirstName is a required field")]

@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace WorkScheduleSystem.Entities
 {
-    [Key]
+    
     public class Schedule
     {
+        [Key]
         public int ScheduleID { get; set; }
 
         [Required(ErrorMessage = "The value Date is a required field")]

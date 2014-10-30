@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace WorkScheduleSystem.Entities
 {
-    [Key]
+    
     public class Skill
     {
+        [Key]
         public int SkillID { get; set; }
 
         [Required(ErrorMessage="Description is required")]

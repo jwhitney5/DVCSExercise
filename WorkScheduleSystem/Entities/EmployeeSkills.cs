@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace WorkScheduleSystem.Entities
 {
-    [Key]
+    
     public class EmployeeSkills
     {
+        [Key]
         public int EmployeeSkillID { get; set; }
 
         [Required(ErrorMessage = "The value EmployeeID is a required field")]

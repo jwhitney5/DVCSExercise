@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace WorkScheduleSystem.Entities
 {
-    [Key]
+    
     public class Location
     {
+        [Key]
         public int LocationID { get; set; }
 
         [Required(ErrorMessage = "Name is required")]

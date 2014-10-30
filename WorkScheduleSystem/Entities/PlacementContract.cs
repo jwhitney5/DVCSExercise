@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace WorkScheduleSystem.Entities
 {
-    [Key]
+    
     public class PlacementContract
     {
+        [Key]
         public int PlacementContractID { get; set; }
 
         [Required(ErrorMessage = "StartDate is required")]

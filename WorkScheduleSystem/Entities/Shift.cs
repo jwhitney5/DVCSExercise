@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace WorkScheduleSystem.Entities
 {
-    [Key]
+    
     public class Shift
     {
+        [Key]
         public int ShiftID { get; set; }
 
         [Required(ErrorMessage = "PlacementContractID is required")]

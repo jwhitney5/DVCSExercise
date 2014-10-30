@@ -7,6 +7,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DVCSExercise", "http://loca
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{fdae51b6-cf3d-48ee-8203-1a55c40feea8}|WorkScheduleSystem.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51441"
 		Debug.AspNetCompiler.PhysicalPath = "..\DVCSExercise\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51441\"
