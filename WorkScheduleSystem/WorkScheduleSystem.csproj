@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\WorkScheduleContext.cs" />
     <Compile Include="Entities\Employee.cs" />
     <Compile Include="Entities\EmployeeSkills.cs" />
     <Compile Include="Entities\Location.cs" />
@@ -57,7 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BLL\" />
-    <Folder Include="DAL\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
