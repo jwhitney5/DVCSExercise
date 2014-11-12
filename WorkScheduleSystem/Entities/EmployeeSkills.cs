@@ -10,6 +10,13 @@ namespace WorkScheduleSystem.Entities
     
     public class EmployeeSkills
     {
+        public enum SkillLevel
+        {
+            Novice,
+            Proficent,
+            Expert
+        }
+
         [Key]
         public int EmployeeSkillID { get; set; }
 
@@ -20,10 +27,9 @@ namespace WorkScheduleSystem.Entities
         public int SkillID { get; set; }
 
         [Required(ErrorMessage = "The value Level is a required field")]
-        public int Level { get; set; }
+        public SkillLevel Level { get; set; }
 
-        [Required(ErrorMessage = "The value YearsOfExperience is a required field")]
-        public int YearsOfExperience { get; set; }
+        public int? YearsOfExperience { get; set; }
 
         public virtual Skill Skills { get; set; }
         public virtual Employee Employees { get; set; }

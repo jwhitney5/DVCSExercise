@@ -55,6 +55,7 @@
     <Compile Include="Entities\Schedule.cs" />
     <Compile Include="Entities\Shift.cs" />
     <Compile Include="Entities\Skill.cs" />
+    <Compile Include="POCOs\EmployeeSkill.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
