@@ -20,7 +20,7 @@ namespace WorkScheduleSystem.Entities
         [Required(ErrorMessage="RequiresTicket is required")]
         public bool RequiresTicket { get; set; }
 
-        public virtual ICollection<EmployeeSkills> EmployeeSkills { get; set; }
+        public virtual ICollection<EmployeeSkill> EmployeeSkills { get; set; }
 
     }
 }

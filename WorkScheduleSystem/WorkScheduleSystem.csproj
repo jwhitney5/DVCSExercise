@@ -46,16 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\ReportController.cs" />
     <Compile Include="BLL\WorkScheduleController.cs" />
     <Compile Include="DAL\WorkScheduleContext.cs" />
     <Compile Include="Entities\Employee.cs" />
-    <Compile Include="Entities\EmployeeSkills.cs" />
+    <Compile Include="Entities\EmployeeSkill.cs" />
     <Compile Include="Entities\Location.cs" />
     <Compile Include="Entities\PlacementContract.cs" />
     <Compile Include="Entities\Schedule.cs" />
     <Compile Include="Entities\Shift.cs" />
     <Compile Include="Entities\Skill.cs" />
-    <Compile Include="POCOs\EmployeeSkill.cs" />
+    <Compile Include="POCOs\EmployeeSkillPOCO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

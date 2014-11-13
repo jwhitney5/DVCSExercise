@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace WorkScheduleSystem.Entities
 {
     
-    public class EmployeeSkills
+    public class EmployeeSkill
     {
         public enum SkillLevel
         {
@@ -33,5 +33,8 @@ namespace WorkScheduleSystem.Entities
 
         public virtual Skill Skills { get; set; }
         public virtual Employee Employees { get; set; }
+
+        public virtual Employee Employee { get; set; }
+        public virtual Skill Skill { get; set; }
     }
 }

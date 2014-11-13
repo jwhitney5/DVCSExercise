@@ -16,7 +16,7 @@ namespace WorkScheduleSystem.DAL
         public WorkScheduleContext() : base("name=WorkSchedule") { }
 
         public DbSet<Employee> Employees { get; set; }
-        public DbSet<EmployeeSkills> EmployeeSkills { get; set; }
+        public DbSet<EmployeeSkill> EmployeeSkills { get; set; }
         public DbSet<Location> Locations { get; set; }
         public DbSet<PlacementContract> PlacementContracts { get; set; }
         public DbSet<Schedule> Schedules { get; set; }

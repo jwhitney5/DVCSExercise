@@ -28,7 +28,7 @@ namespace WorkScheduleSystem.Entities
 
         public bool Active { get; set; }
 
-        public virtual ICollection<EmployeeSkills> EmployeeSkills { get; set; }
+        public virtual ICollection<EmployeeSkill> EmployeeSkills { get; set; }
         public virtual ICollection<Schedule> Schedules { get; set; }
 
     }
